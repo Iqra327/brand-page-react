@@ -14,14 +14,14 @@ const HeroSection = () => {
         <div>
         <p className="available-on-text">Also Available On</p>
         <div className="hero-icons">
-          <img src="./images/flipkart.png" alt="flipkart-logo-img"/>
-          <img src="./images/amazon.png" alt="amazon-logo-img"/>
+          <img src={`${process.env.PUBLIC_URL}/images/flipkart.png`} alt="flipkart-logo-img"/>
+          <img src={`${process.env.PUBLIC_URL}/images/amazon.png`} alt="amazon-logo-img"/>
         </div>
         </div>
       </div>
 
       <div className="hero-img">
-          <img src="./images/shoe_image.png" />
+          <img src={`${process.env.PUBLIC_URL}/images/shoe_image.png`} alt="shoe-img"/>
       </div>
     </div>
   );
