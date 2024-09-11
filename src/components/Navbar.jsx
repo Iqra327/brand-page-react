@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div>
-        <img src="/images/brand_logo.png" alt="brand-logo"/>
+        <img src={`${process.env.PUBLIC_URL}/images/brand_logo.png`} alt="brand-logo"/>
       </div>
       <div className="nav-links">
         <Link to='/' className="link"> Menu </Link>
