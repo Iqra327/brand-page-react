@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/brand-page-react/static/css/main.2f19b152.css",
-    "main.js": "/brand-page-react/static/js/main.487f80e4.js",
+    "main.js": "/brand-page-react/static/js/main.8c32463a.js",
     "index.html": "/brand-page-react/index.html",
     "main.2f19b152.css.map": "/brand-page-react/static/css/main.2f19b152.css.map",
-    "main.487f80e4.js.map": "/brand-page-react/static/js/main.487f80e4.js.map"
+    "main.8c32463a.js.map": "/brand-page-react/static/js/main.8c32463a.js.map"
   },
   "entrypoints": [
     "static/css/main.2f19b152.css",
-    "static/js/main.487f80e4.js"
+    "static/js/main.8c32463a.js"
   ]
 }
