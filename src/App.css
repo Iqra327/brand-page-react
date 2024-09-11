@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 110px;
+  height: 72px;
+  gap: 120px;
+}
+
+.navbar img{
+  width: 76px;
+  height: 42px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 24px
+}
+
+.nav-links .link{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--gray);
+}
+
+.navbar button{
+  all: unset;
+  background: var(--red);
+  color: white;
+  padding: 6px 16px;
+  height: 31px;
+}
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  margin: 10px 110px;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.hero-content h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+
+.hero-content p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gray);
+  width: 400px;
+}
+
+.hero-btns{
+  display: flex;
+  gap: 40px;
+}
+
+.shop-now-btn , .category-btn{
+  all:unset;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 6px 16px;
+}
+
+.shop-now-btn{
+  background-color: var(--red);
+  color: white;
+}
+
+.category-btn{
+  border: 1px solid gray;
+  color: var(--gray);
+}
+
+.available-on-text{
+  color: var(--gray) !important;
+  font-weight: 400 !important;
+}
+
+.hero-icons{
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 400px) {
+ .hero-img{
+  order: -1;
+ } 
+
+ .hero-section{
+  flex-direction: column;
+  margin-left: 300px;
+ }
+
+}
